@@ -3,11 +3,11 @@
 define('APPLICATION', 'Admin');
 
 // HTTP
-define('HTTP_SERVER', 'http://abyss.loc/admin/');
-define('HTTP_CATALOG', 'http://abyss.loc/');
+define('HTTP_SERVER', 'http://cms.webdev/admin/');
+define('HTTP_CATALOG', 'http://cms.webdev/');
 
 // DIR
-define('DIR_OPENCART', '/home/alk/Work/cms/opencart/upload/');
+define('DIR_OPENCART', '/home/alk/work/inforkom/cms/cont_sys/');
 define('DIR_APPLICATION', DIR_OPENCART . 'admin/');
 define('DIR_EXTENSION', DIR_OPENCART . 'extension/');
 define('DIR_IMAGE', DIR_OPENCART . 'image/');
@@ -26,9 +26,9 @@ define('DIR_UPLOAD', DIR_STORAGE . 'upload/');
 // DB
 define('DB_DRIVER', 'mysqli');
 define('DB_HOSTNAME', 'localhost');
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', 'rtl68GHe');
-define('DB_DATABASE', 'crm');
+define('DB_USERNAME', 'alk');
+define('DB_PASSWORD', 'sk3jdf');
+define('DB_DATABASE', 'inforkom');
 define('DB_PORT', '3306');
 define('DB_PREFIX', 'oc_');
 

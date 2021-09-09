@@ -3,7 +3,7 @@ const defaultTheme = require('tailwindcss/defaultTheme');
 const colors = require("tailwindcss/colors");
 
 module.exports = {
-  // purge: false,
+  // mode: 'jit',
   // purge: [
   //   '../../template/**/*.twig',
   //   '../../javascript/**/*.js',    
@@ -21,22 +21,24 @@ module.exports = {
       },      
     },
   },
-  variants: [
-    "responsive",
-    "group-hover",
-    "focus-within",
-    "first",
-    "last",
-    "odd",
-    "even",
-    "hover",
-    "focus",
-    "active",
-    "visited",
-    "disabled",
+  // variants: [
+  //   "responsive",
+  //   "group-hover",
+  //   "focus-within",
+  //   "first",
+  //   "last",
+  //   "odd",
+  //   "even",
+  //   "hover",
+  //   "focus",
+  //   "active",
+  //   "visited",
+  //   "disabled",
+  // ],
+  variants: {
+    extend: {},
+  },
+  plugins: [
+    require('@tailwindcss/forms'),
   ],
-  // variants: {
-  //   extend: {},
-  // },
-  plugins: [],
 }

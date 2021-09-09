@@ -1,0 +1,6 @@
+*.log
+config.php
+config_.php
+admin/config.php
+storage/
+system/storage/logs/error.log
